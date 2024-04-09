@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: brown ;
+  height:  100vh;
+  width:100vw;
+}
+.tittle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.results{
+  display: flex;
+  align-items:flex;
+  justify-content: center;
+  height: 100vh;
+  width: 400px;
+  background-color: #fff;
+}
+button {
+  background-color: #4b7ec0;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  border: 0;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #F2D8DF;
+  color: #2E62A6;
+}
+.content{
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  width: 400px;
+}
+.ttchamadas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trf{
+  display: flex;
+  text-align: left;
+  align-items: left;
+  justify-content:left;
+  padding-top: 100px;
+  
+}
